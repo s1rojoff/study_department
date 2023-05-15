@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  box-sizing: border-box;
+}
+:root{
+  --primary: #4ade80;
+  --grey: #64748b;
+  --dark: #1e293b;
+  --dark-alt: #334155;
+  --light: #f1f5f9;
+  --sidebar-width: 220px;
+}
+body{
+  background: var(--light);
+}
+button{
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+  background: none; 
+  border: none;
+}
